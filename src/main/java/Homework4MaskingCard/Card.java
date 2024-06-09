@@ -1,4 +1,4 @@
-package Homework4;
+package Homework4MaskingCard;
 
 import java.util.Scanner;
 
