@@ -33,7 +33,6 @@ public class Homework5Tournament {
         tournament1.AddPlayer(player10);
         tournament1.AddPlayer(player5);
 
-
     }
 
 
