@@ -3,11 +3,11 @@ package Homework5;
 import java.util.Objects;
 
 public class Movie {
-    String movieName;
-    double rating;
-    String genre;
-    String country;
-    boolean hasOskar;
+    private String movieName;
+    private double rating;
+    private String genre;
+    private String country;
+    private boolean hasOskar;
 
     public Movie(String movieName, double rating, String genre, String country, boolean hasOskar) {
         this.movieName = movieName;
