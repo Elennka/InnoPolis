@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class DurationTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
 
 
         LocalDateTime currentDateTime = LocalDateTime.now();
