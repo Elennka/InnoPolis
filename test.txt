@@ -1,0 +1,1 @@
+[{"online":false,"id":0,"nick":"Anton","points":0,"isOnline":false},{"online":false,"id":2,"nick":"Ivan","points":0,"isOnline":false},{"online":false,"id":3,"nick":"Semen","points":5,"isOnline":false},{"online":false,"id":4,"nick":"Maksim","points":0,"isOnline":false}]
