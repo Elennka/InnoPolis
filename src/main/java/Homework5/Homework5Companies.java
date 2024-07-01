@@ -6,6 +6,7 @@ import java.util.List;
 public class Homework5Companies {
     public static void main(String[] args) {
 
+
         List<Movie> films1 = new ArrayList<>();
         films1.add(new Movie("Я шагаю по Москве", 8, "Комедия", "Россия", false));
         films1.add(new Movie("Ирония судьбы, или С лёгким паром!", 9, "Комедия", "Россия", false));
@@ -23,9 +24,11 @@ public class Homework5Companies {
         films3.add(new Movie("Volver a empezar", 7, "Драма", "Испания", true));
 
         List<Companies> myCompanies = new ArrayList<>();
+
         myCompanies.add(new Companies("ООО \"Централ Партнершип\"", 2010, films1));
         myCompanies.add(new Companies("Paramount Pictures", 1912, films2));
         myCompanies.add(new Companies("Brazzers", 2005, films2));
+
 
         for (Companies company : myCompanies) {
 

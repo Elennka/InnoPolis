@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Companies {
     private String name;
     private int foundationYear;
-    List<Movie> films;
+    private List<Movie> films;
 
 
 
