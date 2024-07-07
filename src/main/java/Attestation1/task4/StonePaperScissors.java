@@ -15,12 +15,11 @@ public class StonePaperScissors {
     public StonePaperScissors() {
     }
 
-    public int getScore(String input){
+    public int getScore(String input) {
         if (input.equals("К")) return 1;
-        if (input.equals("Н")) return 2;
-        if (input.equals("Б")) return 5;
+        else if (input.equals("Н")) return 2;
+        else return 5;
 
-        return 0;
     }
 
 
@@ -39,7 +38,6 @@ public class StonePaperScissors {
             return "computer";
         }
     }
-
 
 
     public String getUserChar() throws IOException {
