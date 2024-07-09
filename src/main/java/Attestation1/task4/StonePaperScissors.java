@@ -16,10 +16,11 @@ public class StonePaperScissors {
     }
 
     public int getScore(String input) {
-        if (input.equals("К")) return 1;
-        else if (input.equals("Н")) return 2;
-        else return 5;
-
+        int x = 0;
+        if (input.equals("К")) x = 1;
+        else if (input.equals("Н")) x = 2;
+        else x = 5;
+        return x;
     }
 
 

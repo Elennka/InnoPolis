@@ -8,6 +8,7 @@ public class DurationTest {
     public static void main(String[] args) throws InterruptedException{
 
 
+
         LocalDateTime currentDateTime = LocalDateTime.now();
 
         int days = 0;

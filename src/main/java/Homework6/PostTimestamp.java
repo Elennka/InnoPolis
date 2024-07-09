@@ -9,7 +9,6 @@ public class PostTimestamp implements HumanReadableTimestamp {
     public String getTimestamp(LocalDateTime eventTimestamp) {
         Duration duration = Duration.between(eventTimestamp, LocalDateTime.now());
 
-
         long seconds = duration.getSeconds();
         long minutes = duration.toMinutes();
         long hours = duration.toHours();
